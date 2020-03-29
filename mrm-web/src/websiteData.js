@@ -35,14 +35,26 @@ let data = {
   landingPage: {
     banner: [
       {
+        image: {
+          src: "images/bg1.jpg",
+          alt: "handy man"
+        },
         heading: "one stop home services",
         text: "let us do it for you."
       },
       {
+        image: {
+          src: "images/bg1.jpg",
+          alt: "handy man"
+        },
         heading: "one click repair service",
         text: "repair. improve. maintain"
       },
       {
+        image: {
+          src: "images/bg1.jpg",
+          alt: "handy man"
+        },
         heading: "Property Maintenance Services",
         text: "one call does it all."
       }
