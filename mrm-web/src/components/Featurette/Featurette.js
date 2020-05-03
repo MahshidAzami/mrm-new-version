@@ -15,7 +15,7 @@ const Featurette = ({ services, info, about }) => (
       {services.map((service, i) => (
         <div key={i} className="col-6 col-xl-4  px-0 mb-4 d-flex">
           <div className="card mx-2">
-            <Link to={`/services/${service.link}`}>
+            <Link to={`/services${service.link}`}>
               <img
                 className="card-img-top height-inherit"
                 src={
