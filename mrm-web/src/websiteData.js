@@ -122,13 +122,10 @@ let data = {
         },
       ],
     },
-    whyUs: {
-      left: {
-        heading: "Why",
-        subHeading: "Choose Us",
-      },
-      right: {
-        heading: "One Stop Solution for your Complete Home Maintenance",
+    info: {
+      heading: "Why Choose Us",
+      info: {
+        subHeading: "One Stop Solution for your Complete Home Maintenance",
         list: [
           {
             heading: "Vision",
@@ -151,17 +148,34 @@ let data = {
             icon: "fa fa-briefcase",
           },
         ],
-        image: {
-          src: "images/a1.png",
-          alt: "handy man",
-        },
+      },
+      image: {
+        src:
+          "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+        alt: "handy man",
       },
     },
-    trustUs: {
+    about: {
       heading: "service you can trust",
       subHeading: "protect all your home appliances & systems.",
       link: "/services",
+      image: {
+        src:
+          "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+        alt: "handy man",
+      },
     },
+    services: [
+      { name: "HandyMan", link: "/handyMan" },
+      { name: "Electrics", link: "/electrics" },
+      { name: "Home Makeover", link: "/homeMakeover" },
+      { name: "Carpentry", link: "/carpentry" },
+      { name: "Plumbing", link: "/plumbing" },
+      { name: "Moving Services", link: "/movingServices" },
+      { name: "Decorating", link: "/decorating" },
+      { name: "Jet Washing", link: "/jetWashing" },
+      { name: "Locksmith", link: "/locksmith" },
+    ],
     // heroText: "blah blah blah",
     // describeSection: {
     //   heading: "blah blah 1",
