@@ -4,9 +4,6 @@ import BannerForm from "../components/BannerForm/BannerForm";
 import Hero from "../components/Hero/Hero";
 import Featurette from "../components/Featurette/Featurette";
 
-// import Hero from "../components/Hero/Hero";
-// import Featurette from "../components/Featurette/Featurette";
-
 const LandingPage = ({ data }) => {
   const { banner, bannerForm, hero, services, info, about } = data;
   return (

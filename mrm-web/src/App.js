@@ -5,6 +5,8 @@ import data from "./websiteData";
 
 import MainNavigation from "./components/Navigation/MainNav";
 import LandingPage from "./pages/LandingPage";
+
+import Footer from "./components/Footer/Footer";
 // import ProductsPage from "./pages/ProductsPage";
 // import Footer from "./components/Footer/Footer";
 // import GalleryPage from "./pages/GalleryPage";
@@ -26,7 +28,7 @@ class App extends Component {
     console.log(this.state);
   }
   render() {
-    const { navbarItems, landingPage } = data;
+    const { navbarItems, landingPage, footer } = data;
     return (
       <div className="App">
         <BrowserRouter>
@@ -45,7 +47,8 @@ class App extends Component {
               exact
             /> */}
           </Switch>
-          {/* <Footer adminEmail={this.haveAdminEmail} /> */}
+
+          <Footer footer={footer} />
         </BrowserRouter>
       </div>
     );

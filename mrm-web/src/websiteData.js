@@ -543,6 +543,53 @@ let data = {
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate ",
     tableStandard: {},
   },
+  footer: {
+    col1: {
+      name: "Menu",
+      items: [
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+      ],
+    },
+    col2: {
+      name: "Useful Links",
+      items: [
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+      ],
+    },
+    col3: {
+      name: "About Us",
+      items: [
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Home", link: "/" },
+      ],
+    },
+    colContact: {
+      name: "Contact Info",
+      items: [
+        { name: "1234k Avenue,block-4,New York City", link: "/" },
+        { name: "+1234 567 892", link: "/" },
+        { name: "+1234 567 892", link: "/" },
+        { name: "info@example.com", link: "mailto:info@example.com" },
+      ],
+    },
+    socialMedia: {
+      comapnyName: "MRM",
+      youtube: "https://www.youtube.com/",
+      instagram: "https://www.youtube.com/",
+      google: "https://www.youtube.com/",
+    },
+  },
 };
 
 export default data;
