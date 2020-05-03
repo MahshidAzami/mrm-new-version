@@ -9,19 +9,22 @@ const Info = ({ info }) => {
   } = info;
   return (
     <div className="row featurette justify-content-around">
-      <div className="col-lg-6">
-        <div className="lead my-5">
+      <div className="col-lg-7">
+        <div className="lead">
           <h4>{subHeading}</h4>
-          <ul>
+          <div>
             {list.map((item, i) => (
-              <li>
-                <h5>{item.heading}</h5>
-                <p>{item.text}</p>
-                <p>{item.icon}</p>
-              </li>
+              <div key={i} className="row">
+                <div className="col-1">
+                  <span className={item.icon} />
+                </div>
+                <div className="col-10">
+                  <h5>{item.heading}</h5>
+                  <p className="small">{item.text}</p>
+                </div>
+              </div>
             ))}
-          </ul>
-          {/* <Markup content={props.details.info} /> */}
+          </div>
         </div>
       </div>
       <div className="col-lg-5">

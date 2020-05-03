@@ -10,7 +10,7 @@ const Featurette = ({ services, info, about }) => (
   <div className="container marketing mt-5">
     <Info info={info} />
     <hr className="featurette-divider" />
-    {/* <AboutUs details={about} /> */}
+    <AboutUs about={about} />
     <hr className="featurette-divider" />
     <div className="my-5">
       {/* <Markup content={props.details.productsHeading} /> */}

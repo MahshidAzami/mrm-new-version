@@ -135,17 +135,17 @@ let data = {
           {
             heading: "Affordable",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-book",
+            icon: "fa fa-check",
           },
           {
             heading: "Quality",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-photo",
+            icon: "fa fa-check",
           },
           {
             heading: "24*7 Support",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-briefcase",
+            icon: "fa fa-check",
           },
         ],
       },
