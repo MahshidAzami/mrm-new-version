@@ -44,3 +44,8 @@ a:hover {
   height: 25rem;
   overflow: auto;
 }
+
+.banner-btm {
+  margin-top: -7%;
+  margin-bottom: 3%;
+}

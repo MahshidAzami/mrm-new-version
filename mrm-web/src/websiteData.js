@@ -1,12 +1,12 @@
 let data = {
   companyDetails: {
     name: "MRM",
-    phone: "012345678"
+    phone: "012345678",
   },
   navbarItems: [
     {
       name: "Home",
-      link: "/"
+      link: "/",
     },
     {
       name: "Services",
@@ -20,58 +20,62 @@ let data = {
         { name: "Moving Services", link: "/movingServices" },
         { name: "Decorating", link: "/decorating" },
         { name: "Jet Washing", link: "/jetWashing" },
-        { name: "Locksmith", link: "/locksmith" }
-      ]
+        { name: "Locksmith", link: "/locksmith" },
+      ],
     },
     {
       name: "Prices",
-      link: "/prices"
+      link: "/prices",
     },
     {
       name: "About Us",
-      link: "/aboutUs"
-    }
+      link: "/aboutUs",
+    },
   ],
   landingPage: {
     banner: [
       {
         image: {
           src: "images/bg1.jpg",
-          alt: "handy man"
+          alt: "handy man",
         },
         heading: "one stop home services",
-        text: "let us do it for you."
+        text: "let us do it for you.",
       },
       {
         image: {
           src: "images/bg1.jpg",
-          alt: "handy man"
+          alt: "handy man",
         },
         heading: "one click repair service",
-        text: "repair. improve. maintain"
+        text: "repair. improve. maintain",
       },
       {
         image: {
           src: "images/bg1.jpg",
-          alt: "handy man"
+          alt: "handy man",
         },
         heading: "Property Maintenance Services",
-        text: "one call does it all."
-      }
+        text: "one call does it all.",
+      },
     ],
+    hero: {
+      heroLarge: "lorem",
+      heroMobile: "lorem mobile",
+    },
     bannerForm: {
       heading: "Looking for a Handyman?",
       subHeading: "We solve your Home repair needs!",
       image: {
         src: "images/f1.png",
-        alt: "handy man"
+        alt: "handy man",
       },
       form: {
         inputs: [
           { name: "Name", placeHolder: "your name", type: "text" },
           { name: "Email", placeHolder: "email@example.com", type: "email" },
           { name: "Mobile", placeHolder: "07123456789", type: "text" },
-          { name: "Address", placeHolder: "your address", type: "text" }
+          { name: "Address", placeHolder: "your address", type: "text" },
         ],
         services: [
           "---- SELECT ----",
@@ -80,9 +84,9 @@ let data = {
           "Painting",
           "Carpentry",
           "Gardening",
-          "Other"
-        ]
-      }
+          "Other",
+        ],
+      },
     },
     servicePanel: {
       firstCol: [
@@ -91,15 +95,15 @@ let data = {
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-cog",
-          link: "/about"
+          link: "/about",
         },
         {
           heading: "cleaning",
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-check-square-o",
-          link: "/about"
-        }
+          link: "/about",
+        },
       ],
       secondCol: [
         {
@@ -107,21 +111,21 @@ let data = {
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-yelp",
-          link: "/about"
+          link: "/about",
         },
         {
           heading: "improvement",
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-gg",
-          link: "/about"
-        }
-      ]
+          link: "/about",
+        },
+      ],
     },
     whyUs: {
       left: {
         heading: "Why",
-        subHeading: "Choose Us"
+        subHeading: "Choose Us",
       },
       right: {
         heading: "One Stop Solution for your Complete Home Maintenance",
@@ -129,35 +133,35 @@ let data = {
           {
             heading: "Vision",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-check"
+            icon: "fa fa-check",
           },
           {
             heading: "Affordable",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-book"
+            icon: "fa fa-book",
           },
           {
             heading: "Quality",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-photo"
+            icon: "fa fa-photo",
           },
           {
             heading: "24*7 Support",
             text: "Consectetur adipiscing elit estibulum nibh urna",
-            icon: "fa fa-briefcase"
-          }
+            icon: "fa fa-briefcase",
+          },
         ],
         image: {
           src: "images/a1.png",
-          alt: "handy man"
-        }
-      }
+          alt: "handy man",
+        },
+      },
     },
     trustUs: {
       heading: "service you can trust",
       subHeading: "protect all your home appliances & systems.",
-      link: "/services"
-    }
+      link: "/services",
+    },
     // heroText: "blah blah blah",
     // describeSection: {
     //   heading: "blah blah 1",
@@ -175,7 +179,7 @@ let data = {
     subHeading: "services that you need we will provide at your door step",
     hero: {
       heading: "one click repair service",
-      subHeading: "repair. improve. maintain"
+      subHeading: "repair. improve. maintain",
     },
     category: [
       {
@@ -185,7 +189,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t8.png",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -194,7 +198,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -204,13 +208,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Electrics",
@@ -219,7 +223,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t5.png",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -228,7 +232,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -238,13 +242,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Home Makeover",
@@ -253,7 +257,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t3.jpg",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -262,7 +266,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -272,13 +276,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Carpentry",
@@ -287,7 +291,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t6.png",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -296,7 +300,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -306,13 +310,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Plumbing",
@@ -321,7 +325,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t7.png",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -330,7 +334,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -340,13 +344,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Moving Services",
@@ -355,7 +359,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t2.jpg",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -364,7 +368,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -374,13 +378,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Decorating",
@@ -389,7 +393,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t2.jpg",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -398,7 +402,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -408,13 +412,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Jet Washing",
@@ -423,7 +427,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t2.jpg",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -432,7 +436,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -442,13 +446,13 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
+                link: "",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Locksmith",
@@ -457,7 +461,7 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
           src: "images/t2.jpg",
-          alt: ""
+          alt: "",
         },
         services: [
           {
@@ -466,7 +470,7 @@ let data = {
             image: {
               src:
                 "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: ""
+              alt: "",
             },
             link: "",
             subServices: [
@@ -476,14 +480,14 @@ let data = {
                 image: {
                   src:
                     "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: ""
+                  alt: "",
                 },
-                link: ""
-              }
-            ]
-          }
-        ]
-      }
+                link: "",
+              },
+            ],
+          },
+        ],
+      },
     ],
     homeServices: {
       title: "complete home services",
@@ -493,38 +497,38 @@ let data = {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non semper, inquam; Quo modo autem philosophus loquitur? Duo Reges: constructio interrete. Dici enim nihil potest verius. Hic ambiguo ludimur. An hoc usque quaque, aliter in vita? Bonum incolumis acies: misera caecitas. Favorite",
         image: {
           src: "images/g6.jpg",
-          alt: ""
-        }
+          alt: "",
+        },
       },
       right: [
         {
           heading: "plumbing services",
           text:
             "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
-          link: "projects.html"
+          link: "projects.html",
         },
         {
           heading: "projects.html",
           text:
             "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
-          link: "projects.html"
+          link: "projects.html",
         },
         {
           heading: "painting services",
           text:
             "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
-          link: "projects.html"
-        }
-      ]
-    }
+          link: "projects.html",
+        },
+      ],
+    },
   },
   prices: {
     title: "Our Rates",
     subHeader: "blah blah blah",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate ",
-    tableStandard: {}
-  }
+    tableStandard: {},
+  },
 };
 
 export default data;

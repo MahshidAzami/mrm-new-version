@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Zoom } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image";
 import "./Carousel.css";
 
 const Carousel = ({ banner }) => {
@@ -8,7 +8,7 @@ const Carousel = ({ banner }) => {
     duration: 5000,
     transitionDuration: 500,
     infinite: true,
-    indicators: true
+    indicators: false,
   };
   return (
     <div className="slide-container">
