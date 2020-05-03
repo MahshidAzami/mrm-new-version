@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const DropDown = props => {
-  const { subMenu, link, name } = props.item;
+const DropDown = ({ item, clickHandler }) => {
+  const { subMenu, link, name } = item;
   const navItems = subMenu.map((item, i) => {
     return (
       <NavLink key={i} to={link + item.link} className="dropdown-item col-3">
@@ -11,14 +11,14 @@ const DropDown = props => {
     );
   });
   return (
-    <li className="nav-item dropdown">
+    <li className="nav-item mx-5 dropdown">
       <NavLink className="nav-link dropdown-toggle" id="dropdown01" to={link}>
         {name}
       </NavLink>
 
       <div
         className="dropdown-menu dropdown-content m-0 p-0"
-        onClick={props.clickHandler}
+        onClick={clickHandler}
       >
         <div className="dropdown__column">{navItems}</div>
       </div>
