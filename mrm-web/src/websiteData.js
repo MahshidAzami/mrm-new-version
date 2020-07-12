@@ -176,17 +176,6 @@ let data = {
       { name: "Jet Washing", link: "/jetWashing" },
       { name: "Locksmith", link: "/locksmith" },
     ],
-    // heroText: "blah blah blah",
-    // describeSection: {
-    //   heading: "blah blah 1",
-    //   text:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    //   image: {
-    //     src:
-    //       "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-    //     alt: ""
-    //   }
-    // }
   },
   servicesSection: {
     heading: "Our Services",
@@ -194,6 +183,10 @@ let data = {
     hero: {
       heading: "one click repair service",
       subHeading: "repair. improve. maintain",
+      banner: {
+        src: "images/g6.jpg",
+        alt: "Services Page",
+      },
     },
     category: [
       {
@@ -522,7 +515,7 @@ let data = {
           link: "projects.html",
         },
         {
-          heading: "projects.html",
+          heading: "Electrical Services",
           text:
             "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
           link: "projects.html",

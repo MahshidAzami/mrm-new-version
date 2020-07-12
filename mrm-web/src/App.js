@@ -5,7 +5,7 @@ import data from "./websiteData";
 
 import MainNavigation from "./components/Navigation/MainNav";
 import LandingPage from "./pages/LandingPage";
-
+import ServicesPage from "./pages/ServicesPage";
 import Footer from "./components/Footer/Footer";
 // import ProductsPage from "./pages/ProductsPage";
 // import Footer from "./components/Footer/Footer";
@@ -28,7 +28,7 @@ class App extends Component {
     console.log(this.state);
   }
   render() {
-    const { navbarItems, landingPage, footer } = data;
+    const { navbarItems, landingPage, servicesSection, footer } = data;
     return (
       <div className="App">
         <BrowserRouter>
@@ -39,13 +39,11 @@ class App extends Component {
               render={() => <LandingPage data={landingPage} />}
               exact
             />
-            {/* <Route
+            <Route
               path="/services"
-              render={() => (
-                <ServicesPage data={this.state.data.servicesSection} />
-              )}
+              render={() => <ServicesPage data={servicesSection} />}
               exact
-            /> */}
+            />
           </Switch>
 
           <Footer footer={footer} />

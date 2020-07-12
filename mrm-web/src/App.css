@@ -49,3 +49,99 @@ a:hover {
   margin-top: -7%;
   margin-bottom: 3%;
 }
+/* 
+START COPY FROM TEMPLATE
+*/
+.single-left h5.main-title {
+  margin-bottom: 25px;
+}
+.single-left {
+  margin-bottom: 30px;
+}
+.serv-bottom {
+  padding-bottom: 2em;
+}
+h5.main-title {
+  font-size: 30px;
+  color: #031f9a;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-text {
+  padding-top: 20px;
+}
+.blog-text h5 {
+  font-weight: 600;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 10px;
+}
+.all-comments {
+  padding: 0;
+}
+
+.w3l-media {
+  margin-bottom: 15px;
+  padding: 2em;
+  background: #f7f7f7;
+  -webkit-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+  -moz-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+  box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+}
+.w3l-media h5 {
+  color: #031f9a;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.media-body p {
+  margin: 10px 0;
+}
+.media-body a {
+  color: #000;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1080px) {
+  .blog-text h5 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blog-text {
+    padding: 20px 0;
+  }
+  .blog-text h5 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blog-text {
+    padding: 20px 0;
+  }
+  .blog-text h5 {
+    font-size: 20px;
+  }
+  .w3l-media {
+    padding: 1.5em;
+  }
+
+  .w3l-media h5 {
+    font-size: 19px;
+  }
+}
+
+/* END  COPY FROM TEMPLATE */

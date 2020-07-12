@@ -1,0 +1,20 @@
+.banner-text {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px rgb(70, 69, 69);
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+.banner-text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.banner-text p {
+  text-transform: uppercase;
+  text-align: center;
+}
