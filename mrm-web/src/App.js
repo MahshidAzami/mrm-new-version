@@ -6,6 +6,7 @@ import data from "./websiteData";
 import MainNavigation from "./components/Navigation/MainNav";
 import LandingPage from "./pages/LandingPage";
 import ServicesPage from "./pages/ServicesPage";
+import CategoryPage from "./pages/CategoryPage";
 import Footer from "./components/Footer/Footer";
 // import ProductsPage from "./pages/ProductsPage";
 // import Footer from "./components/Footer/Footer";
@@ -43,6 +44,12 @@ class App extends Component {
               path="/services"
               render={() => <ServicesPage data={servicesSection} />}
               exact
+            />
+            <Route
+              path="/services/:category"
+              render={(props) => (
+                <CategoryPage {...props} data={servicesSection} />
+              )}
             />
           </Switch>
 

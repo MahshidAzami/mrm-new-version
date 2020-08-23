@@ -12,9 +12,10 @@ const HomeServices = ({ homeServices }) => (
             className="img-responsive"
             alt={homeServices.left.image.alt}
           />
-          <div className="blog-text">
+          <div className="blog-text mr-3">
             <h5>{homeServices.left.heading}</h5>
-            <p>{homeServices.left.subHeading}</p>
+            <p>{homeServices.left.subHeading1}</p>
+            <p>{homeServices.left.subHeading2}</p>
           </div>
         </div>
         <div className="all-comments col-md-5">

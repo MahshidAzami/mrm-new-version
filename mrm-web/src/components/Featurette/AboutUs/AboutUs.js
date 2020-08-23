@@ -8,7 +8,9 @@ const AboutUs = ({ about }) => (
       <div className="lead my-3">
         <h4>{about.heading}</h4>
         <p>{about.subHeading}</p>
-        <Link to={about.link}>view all services</Link>
+        <Link className="small" to={about.link}>
+          view all services >
+        </Link>
       </div>
     </div>
     <div className="col-lg-5 order-lg-1">
