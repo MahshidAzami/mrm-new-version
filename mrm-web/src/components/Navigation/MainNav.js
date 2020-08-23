@@ -15,7 +15,7 @@ class MainNavigation extends Component {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src="/xray-logo.jpg"
+              src="/logo.png"
               alt="mrm home maintenance"
               className="brand"
               id="logo"

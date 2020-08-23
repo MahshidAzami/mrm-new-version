@@ -34,6 +34,10 @@
   display: flex;
 }
 
+.banner80 {
+  max-height: 80vh;
+  width: 100%;
+}
 .each-fade .image-container {
   width: 100%;
   overflow: hidden;
@@ -52,23 +56,23 @@
 .carousel-info {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 23%;
+  top: 60%;
+  left: 12%;
   z-index: 2;
   box-sizing: border-box;
 }
 
-.carousel-heading {
+.carousel-info h3 {
   color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 2px rgb(70, 69, 69);
+  text-shadow: 0px 0px 3px rgb(70, 69, 69);
   text-transform: capitalize;
   font-size: 3.5rem;
 }
 
-.carousel-text {
+.carousel-info p {
   color: #fff;
-  text-shadow: 0px 0px 2px #000;
+  text-shadow: 0px 0px 3px #000;
   margin-top: 12px;
   letter-spacing: 5px;
   font-weight: 600;

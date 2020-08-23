@@ -8,6 +8,7 @@ import LandingPage from "./pages/LandingPage";
 import ServicesPage from "./pages/ServicesPage";
 import CategoryPage from "./pages/CategoryPage";
 import Footer from "./components/Footer/Footer";
+import PricesPage from "./pages/PricesPage";
 // import ProductsPage from "./pages/ProductsPage";
 // import Footer from "./components/Footer/Footer";
 // import GalleryPage from "./pages/GalleryPage";
@@ -29,7 +30,7 @@ class App extends Component {
     console.log(this.state);
   }
   render() {
-    const { navbarItems, landingPage, servicesSection, footer } = data;
+    const { navbarItems, landingPage, servicesSection, prices, footer } = data;
     return (
       <div className="App">
         <BrowserRouter>
@@ -50,6 +51,11 @@ class App extends Component {
               render={(props) => (
                 <CategoryPage {...props} data={servicesSection} />
               )}
+            />
+            <Route
+              path="/prices"
+              render={() => <PricesPage data={prices} />}
+              exact
             />
           </Switch>
 

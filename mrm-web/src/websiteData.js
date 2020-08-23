@@ -36,7 +36,7 @@ let data = {
     banner: [
       {
         image: {
-          src: "images/bg1.jpg",
+          src: "images/banner1.jpg",
           alt: "handy man",
         },
         heading: "one stop home services",
@@ -44,7 +44,7 @@ let data = {
       },
       {
         image: {
-          src: "images/bg1.jpg",
+          src: "images/banner2.jpg",
           alt: "handy man",
         },
         heading: "one click repair service",
@@ -52,7 +52,7 @@ let data = {
       },
       {
         image: {
-          src: "images/bg1.jpg",
+          src: "images/banner3.jpg",
           alt: "handy man",
         },
         heading: "Property Maintenance Services",
@@ -131,22 +131,22 @@ let data = {
           {
             heading: "Affordable",
             text: "Trusted team  with affordable prices",
-            icon: "fa fa-check",
+            icon: "fas fa-money-bill-alt",
           },
           {
             heading: "High Quality",
             text: "Providing highest quality services",
-            icon: "fa fa-check",
+            icon: "fas fa-tasks",
           },
           {
             heading: "Peace of mind",
             text: "Minimal disruption to ensure your peace of mind",
-            icon: "fa fa-check",
+            icon: "fa fa-coffee",
           },
           {
             heading: "24*7 Support",
             text: "Available 365 days of year 24*7",
-            icon: "fa fa-check",
+            icon: "fa fa-life-ring",
           },
         ],
       },
@@ -160,8 +160,7 @@ let data = {
       subHeading: "protect all your home appliances & systems.",
       link: "/services",
       image: {
-        src:
-          "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+        src: "/images/bg1.jpg",
         alt: "handy man",
       },
     },
@@ -775,10 +774,71 @@ let data = {
   },
   prices: {
     title: "Our Rates",
-    subHeader: "blah blah blah",
+    subHeader: "We like to be 100% transparent with our rates.",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate ",
-    tableStandard: {},
+      "You can see what we charge for handyman & specialist services below. We also provide free quotes for larger jobs. In order to give you flexibility and value for money, our minimum handyman booking is just 1/2 hour and we charge by the 1/2 hour after that.",
+    tableStandard: {
+      name: "Standard Rate",
+      subHeader: "(8am-6pm weekdays)",
+      rates: [
+        {
+          time: "1st half hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "1st hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Each further half hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Half day (up to 4 hours)",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Full day (up to 8 hours)",
+          handyMan: 40,
+          others: 50,
+        },
+      ],
+    },
+    tableOutOfHours: {
+      name: "Out Of Hours rate",
+      subHeader: "(7-8am, 6-8pm weekdays, all day Saturdays)",
+      rates: [
+        {
+          time: "1st half hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "1st hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Each further half hour",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Half day (up to 4 hours)",
+          handyMan: 40,
+          others: 50,
+        },
+        {
+          time: "Full day (up to 8 hours)",
+          handyMan: 40,
+          others: 50,
+        },
+      ],
+    },
   },
   footer: {
     col1: {

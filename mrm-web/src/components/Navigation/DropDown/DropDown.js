@@ -4,11 +4,12 @@ import { NavLink } from "react-router-dom";
 const DropDown = ({ item, clickHandler }) => {
   const { subMenu, link, name } = item;
   const navItems = subMenu.map((item, i) => {
-    console.log("LINK", link + "ITEM" + item.link);
     return (
-      <NavLink key={i} to={link + item.link} className="dropdown-item col-3">
+      // <div className="row">
+      <NavLink key={i} to={link + item.link} className="dropdown-item">
         {item.name}
       </NavLink>
+      // </div>
     );
   });
   return (
@@ -21,7 +22,9 @@ const DropDown = ({ item, clickHandler }) => {
         className="dropdown-menu dropdown-content m-0 p-0"
         onClick={clickHandler}
       >
-        <div className="dropdown__column">{navItems}</div>
+        <div className="d-flex flex-row">
+          <div className="dropdown__column">{navItems}</div>
+        </div>
       </div>
     </li>
   );

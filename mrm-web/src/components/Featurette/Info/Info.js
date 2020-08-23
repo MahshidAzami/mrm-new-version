@@ -15,7 +15,7 @@ const Info = ({ info }) => {
             <h3>{heading}</h3>
             <img className="w-100 mt-4" src={image.src} alt={image.alt} />
           </div>
-          <div className="col-lg-7 pt-lg-5 mt-lg-3">
+          <div className="col-lg-7 pt-lg-5 mt-3">
             <div className="lead">
               <h4>{subHeading}</h4>
               <div>
