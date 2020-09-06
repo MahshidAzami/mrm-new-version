@@ -1,27 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BannerTitle.css";
+import { Carousel, CarouselItem, CarouselCaption } from "reactstrap";
 const BannerTitle = ({ hero }) => {
+  const [activeIndex] = useState(0);
+
   const { banner, heading, subHeading } = hero;
+
   return (
-    <div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img className="d-block w-100" src={banner.src} alt={banner.alt} />
+    <Carousel activeIndex={activeIndex}>
+      <CarouselItem className="image-container">
+        <img src={banner.src} alt={banner.alt} className="w-100 banner80" />
+        <CarouselCaption
+          captionText={heading}
+          captionHeader={subHeading}
+          className="carousel-info"
+        />
+        <div className="d-block d-sm-none carousel-info">
+          <p>{heading}</p>
         </div>
-      </div>
-      <div className="container">
-        <div className="banner-text my-5">
-          <h3>{heading}</h3>
-          <p>{subHeading}</p>
+      </CarouselItem>
+      <CarouselItem className="image-container">
+        <img src={banner.src} alt={banner.alt} className="w-100 banner80" />
+        <CarouselCaption
+          captionText={heading}
+          captionHeader={subHeading}
+          className="carousel-info"
+        />
+        <div className="d-block d-sm-none carousel-info">
+          <p>{heading}</p>
         </div>
-      </div>
-    </div>
-    // <div class="banner-bg2">
-    //   <div class="banner-info bg3 inner">
-    //     <h3>{heading}</h3>
-    //     <p>{subHeading}</p>
-    //   </div>
-    // </div>
+      </CarouselItem>
+    </Carousel>
   );
 };
 export default BannerTitle;

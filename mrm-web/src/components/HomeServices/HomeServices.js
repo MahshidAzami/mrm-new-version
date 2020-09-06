@@ -5,8 +5,8 @@ const HomeServices = ({ homeServices }) => (
   <div className="container">
     <div className="single-left serv-bottom">
       <h5 className="main-title">{homeServices.title}</h5>
-      <div className="row">
-        <div className="p-0 col-md-7">
+      <div className="container row">
+        <div className="p-0 col-md-7 pr-md-3">
           <img
             src={homeServices.left.image.src}
             className="img-responsive"
@@ -22,7 +22,7 @@ const HomeServices = ({ homeServices }) => (
           <div>
             {homeServices.right.map((service) => (
               <div className="w3l-media">
-                <h5>{service.heading}</h5>
+                <h5 className="">{service.heading}</h5>
                 <div className="media-body">
                   <p>{service.text}</p>
                   <Link to={service.link}>View More</Link>

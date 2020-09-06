@@ -63,7 +63,6 @@ START COPY FROM TEMPLATE
 }
 h5.main-title {
   font-size: 30px;
-  color: #031f9a;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -96,7 +95,6 @@ h5.main-title {
   box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
 }
 .w3l-media h5 {
-  color: #031f9a;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 600;

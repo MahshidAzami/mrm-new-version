@@ -14,7 +14,7 @@ let data = {
       subMenu: [
         { name: "HandyMan", link: "/handyman" },
         { name: "Electrics", link: "/electrics" },
-        { name: "Home Makeover", link: "/home-Makeover" },
+        { name: "Home Makeover", link: "/home-makeover" },
         { name: "Carpentry", link: "/carpentry" },
         { name: "Plumbing", link: "/plumbing" },
         { name: "Moving Services", link: "/moving-services" },
@@ -36,7 +36,7 @@ let data = {
     banner: [
       {
         image: {
-          src: "images/banner1.jpg",
+          src: "images/banner1.png",
           alt: "handy man",
         },
         heading: "one stop home services",
@@ -44,7 +44,7 @@ let data = {
       },
       {
         image: {
-          src: "images/banner2.jpg",
+          src: "images/banner2.png",
           alt: "handy man",
         },
         heading: "one click repair service",
@@ -52,7 +52,7 @@ let data = {
       },
       {
         image: {
-          src: "images/banner3.jpg",
+          src: "images/banner3.png",
           alt: "handy man",
         },
         heading: "Property Maintenance Services",
@@ -177,7 +177,7 @@ let data = {
       },
       {
         name: "Home Makeover",
-        link: "/homeMakeover",
+        link: "/home-makeover",
         mainPhotos: "/images/services/home_makeover.png",
       },
       {
@@ -192,7 +192,7 @@ let data = {
       },
       {
         name: "Moving Services",
-        link: "/movingServices",
+        link: "/moving-services",
         mainPhotos: "/images/services/moving_services.png",
       },
       {
@@ -202,7 +202,7 @@ let data = {
       },
       {
         name: "Cleaning",
-        link: "/cleaning",
+        link: "/jet-washing",
         mainPhotos: "/images/services/cleaning.png",
       },
       {
@@ -219,17 +219,16 @@ let data = {
       heading: "one click repair service",
       subHeading: "repair. improve. maintain",
       banner: {
-        src: "images/g6.jpg",
+        src: "images/services.png",
         alt: "Services Page",
       },
     },
     category: [
       {
-        name: "HandyMan",
+        name: "Handyman",
         link: "handyman",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t8.png",
           alt: "",
@@ -239,53 +238,26 @@ let data = {
             name: "Flat pack assembly",
             text: "text for subservice1",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/flatpack.png",
+              alt: "Flat pack assembly",
             },
             link: "",
-            subServices: [
-              {
-                name: "subservice1",
-                text: "text for subservice1",
-                image: {
-                  src:
-                    "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: "",
-                },
-                link: "",
-              },
-            ],
           },
           {
             name: "Hanging things up",
             text: "text for subservice1",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/hangup.png",
+              alt: "Hanging things up",
             },
             link: "",
-            subServices: [
-              {
-                name: "subservice1",
-                text: "text for subservice1",
-                image: {
-                  src:
-                    "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-                  alt: "",
-                },
-                link: "",
-              },
-            ],
           },
           {
             name: "Tiling",
             text: "text for subservice1",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/tiling.png",
+              alt: "tiling",
             },
             link: "",
             subServices: [
@@ -307,8 +279,7 @@ let data = {
         name: "Electrics",
         link: "electrics",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t5.png",
           alt: "",
@@ -318,9 +289,8 @@ let data = {
             name: "Finding Faults and Repairs",
             text: "Finding Faults and Repairs",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/finding-faults.png",
+              alt: "Finding Faults and Repairs",
             },
             link: "",
           },
@@ -328,9 +298,8 @@ let data = {
             name: "Lights",
             text: "Lights",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/lights.png",
+              alt: "Lights",
             },
             link: "",
           },
@@ -338,19 +307,17 @@ let data = {
             name: "Replacements",
             text: "Replacements",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/replacement.png",
+              alt: "Replacements",
             },
-            link: "",
+            link: "Replacements",
           },
           {
             name: "Installations",
-            text: "Installationss",
+            text: "Installations",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/installation.png",
+              alt: "Installations",
             },
             link: "",
           },
@@ -358,20 +325,18 @@ let data = {
             name: "Reports",
             text: "Reportss",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
+              src: "/images/services/report.png",
+              alt: "Reportss",
             },
             link: "",
           },
         ],
       },
       {
-        name: "HomeMakeover",
+        name: "Home Makeover",
         link: "home-makeover",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t3.jpg",
           alt: "",
@@ -382,8 +347,7 @@ let data = {
         name: "Carpentry",
         link: "carpentry",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t6.png",
           alt: "",
@@ -393,8 +357,7 @@ let data = {
             name: "Sash windows",
             text: "Sash windows",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/sash-windows.png",
               alt: "",
             },
             link: "",
@@ -403,8 +366,7 @@ let data = {
             name: "Cupboard doors",
             text: "Cupboard doors",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/cupboard.png",
               alt: "",
             },
             link: "",
@@ -413,8 +375,7 @@ let data = {
             name: "Hanging doors",
             text: "Hanging doors",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/hanging-door.png",
               alt: "",
             },
             link: "",
@@ -423,8 +384,7 @@ let data = {
             name: "Flooring",
             text: "Flooring",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/flooring.png",
               alt: "",
             },
             link: "",
@@ -433,8 +393,7 @@ let data = {
             name: "Kitchen units",
             text: "Kitchen units",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/kitchen-unit.png",
               alt: "",
             },
             link: "",
@@ -443,8 +402,7 @@ let data = {
             name: "Shelves",
             text: "Shelves",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/shelves.png",
               alt: "",
             },
             link: "",
@@ -453,8 +411,7 @@ let data = {
             name: "Partition walls",
             text: "Partition walls",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/partitions.jpg",
               alt: "",
             },
             link: "",
@@ -465,8 +422,7 @@ let data = {
         name: "Plumbing",
         link: "plumbing",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t7.png",
           alt: "",
@@ -476,8 +432,7 @@ let data = {
             name: "Replacements",
             text: "Replacements",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/replace.png",
               alt: "",
             },
             link: "",
@@ -486,8 +441,7 @@ let data = {
             name: "Unblocking",
             text: "Unblocking",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/unblock.png",
               alt: "",
             },
             link: "",
@@ -496,8 +450,8 @@ let data = {
             name: "Installations",
             text: "Installations",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/install.png",
+
               alt: "",
             },
             link: "",
@@ -506,8 +460,8 @@ let data = {
             name: "Repairs",
             text: "Repairs",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/repair.png",
+
               alt: "",
             },
             link: "",
@@ -518,8 +472,7 @@ let data = {
         name: "Moving Services",
         link: "moving-services",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -529,18 +482,7 @@ let data = {
             name: "Lifting & Shifting",
             text: "Lifting & Shifting",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
-            },
-            link: "",
-          },
-          {
-            name: "Specialist Lifting",
-            text: "Specialist Lifting",
-            image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/moving.png",
               alt: "",
             },
             link: "",
@@ -549,8 +491,8 @@ let data = {
             name: "Mini Moving",
             text: "Mini Moving",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/mini-moving.png",
+
               alt: "",
             },
             link: "",
@@ -561,8 +503,7 @@ let data = {
         name: "Decorating",
         link: "decorating",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -572,18 +513,7 @@ let data = {
             name: "Filling cracks in walls",
             text: "Filling cracks in walls",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-              alt: "",
-            },
-            link: "",
-          },
-          {
-            name: "Siliconing",
-            text: "Siliconing",
-            image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/crack-walls.png",
               alt: "",
             },
             link: "",
@@ -592,8 +522,7 @@ let data = {
             name: "Plaster patch repair",
             text: "Plaster patch repair",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/plaster-patch.png",
               alt: "",
             },
             link: "",
@@ -602,8 +531,7 @@ let data = {
             name: "Painting",
             text: "Painting",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/painting.png",
               alt: "",
             },
             link: "",
@@ -612,8 +540,7 @@ let data = {
             name: "Wallpaper hanging",
             text: "Wallpaper hanging",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/wallpaper.png",
               alt: "",
             },
             link: "",
@@ -622,8 +549,7 @@ let data = {
             name: "Fixing ceiling cracks",
             text: "Fixing ceiling cracks",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/ceiling-crack.png",
               alt: "",
             },
             link: "",
@@ -632,8 +558,7 @@ let data = {
             name: "Repairing holes in walls",
             text: "Repairing holes in walls",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/hole-wall.png",
               alt: "",
             },
             link: "",
@@ -644,8 +569,7 @@ let data = {
         name: "Jet Washing",
         link: "jet-washing",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -655,8 +579,7 @@ let data = {
             name: "Jet Wash Paving Stones",
             text: "Jet Wash Paving Stones",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/jetwash-paving.png",
               alt: "",
             },
             link: "",
@@ -665,8 +588,7 @@ let data = {
             name: "Jet Wash Garden Furniture",
             text: "Jet Wash Garden Furniture",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/jetwash-garden.png",
               alt: "",
             },
             link: "",
@@ -675,8 +597,7 @@ let data = {
             name: "Jet Wash Stone Steps",
             text: "Jet Wash Stone Steps",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/jetwash-steps.png",
               alt: "",
             },
             link: "",
@@ -687,8 +608,7 @@ let data = {
         name: "Locksmith",
         link: "locksmith",
         banner: "",
-        describtion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        describtion: "",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -698,8 +618,7 @@ let data = {
             name: "Burglary Repairs",
             text: "Burglary Repairs",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/burglary-repairs.png",
               alt: "",
             },
             link: "",
@@ -708,8 +627,7 @@ let data = {
             name: "Emergency Locksmith",
             text: "Emergency Locksmith",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/emergency-locksmith.png",
               alt: "",
             },
             link: "",
@@ -718,8 +636,7 @@ let data = {
             name: "Repairing Locks",
             text: "Repairing Locks",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/repairing-locks.png",
               alt: "",
             },
             link: "",
@@ -728,8 +645,7 @@ let data = {
             name: "Fitting locks",
             text: "Fitting locks",
             image: {
-              src:
-                "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+              src: "/images/services/fitting-locks.png",
               alt: "",
             },
             link: "",
@@ -746,7 +662,7 @@ let data = {
         subHeading2:
           "Having served private and business customers for years, we are accessible 24 hours per day 7 days per week to help with the entirety of your property upkeep needs, including fixing flood damage, painting, plumbing, moving or general carpentry we are glad to help.",
         image: {
-          src: "images/g6.jpg",
+          src: "images/plumbing.png",
           alt: "",
         },
       },
@@ -775,6 +691,7 @@ let data = {
   prices: {
     title: "Our Rates",
     subHeader: "We like to be 100% transparent with our rates.",
+    banner: "/images/handshake.png",
     text:
       "You can see what we charge for handyman & specialist services below. We also provide free quotes for larger jobs. In order to give you flexibility and value for money, our minimum handyman booking is just 1/2 hour and we charge by the 1/2 hour after that.",
     tableStandard: {
@@ -845,30 +762,28 @@ let data = {
       name: "Menu",
       items: [
         { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
+        { name: "Services", link: "/services" },
+        { name: "Prices", link: "/prices" },
+        { name: "About Us", link: "/aboutUs" },
       ],
     },
     col2: {
-      name: "Useful Links",
+      name: "Services",
       items: [
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
+        { name: "Handyman", link: "/services/handyMan" },
+        { name: "Electrics", link: "/services/electrics" },
+        { name: "Home Makeover", link: "/services/home-makeover" },
+        { name: "Carpentry", link: "/services/carpentry" },
+        { name: "Plumbing", link: "/services/plumbing" },
       ],
     },
     col3: {
-      name: "About Us",
+      name: "Services",
       items: [
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
-        { name: "Home", link: "/" },
+        { name: "Moving Services", link: "/services/moving-services" },
+        { name: "Decorating", link: "/services/decorating" },
+        { name: "Cleaning", link: "/services/jet-washing" },
+        { name: "Locksmith", link: "/services/locksmith" },
       ],
     },
     colContact: {

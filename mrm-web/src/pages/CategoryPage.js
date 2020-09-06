@@ -64,8 +64,9 @@ class ServicePage extends Component {
                 />
               </div>
             </div>
-            <div className="container">
-              <div className="my-5">{this.state.pageDetails.describtion}</div>
+            <div className="container my-5">
+              <h2>{this.state.pageDetails.name}</h2>
+              <div className="">{this.state.pageDetails.describtion}</div>
             </div>
             <div className="container">
               <div className="card-group">

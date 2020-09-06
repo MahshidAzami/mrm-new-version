@@ -37,7 +37,7 @@ const PricesPage = ({ data }) => {
             <img className="d-block w-100" src={data.banner} alt="prices" />
           </div>
         </div>
-        <div className="container">
+        <div className="container mt-4">
           <h2>{data.title}</h2>
           <h5>{data.subHeader}</h5>
           <div className="my-5">{data.text}</div>
