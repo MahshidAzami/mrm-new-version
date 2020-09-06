@@ -228,7 +228,8 @@ let data = {
         name: "Handyman",
         link: "handyman",
         banner: "",
-        describtion: "",
+        describtion:
+          "Looking for a handyman in Soho, Marylbone, Mayafair? we have a whole group of exceptionally experienced handyman  prepared to give some assistance to anybody that requires it. Our handymans can baby proof homes, assemble flat pack furniture,  wall mount TV units, install shower screens, tidy cables,among many other services.",
         image: {
           src: "images/t8.png",
           alt: "",
@@ -336,7 +337,8 @@ let data = {
         name: "Home Makeover",
         link: "home-makeover",
         banner: "",
-        describtion: "",
+        describtion:
+          "If you are hoping to put your property available? Do you want your home attracts potential buyers? This doesn't need to burn up all available resources. Ensuring your home looks appealing to potential buyers or tenants is straightforward – you simply need to give the little details some attention and consideration. This may include some decorating and enhancing, fixing broken tiles, ensuring every one of your lights are working appropriately and maybe  jet washing a dirty patio or steps. Our services can fulfill all those small jobs.",
         image: {
           src: "images/t3.jpg",
           alt: "",
