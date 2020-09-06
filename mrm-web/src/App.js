@@ -9,6 +9,7 @@ import ServicesPage from "./pages/ServicesPage";
 import CategoryPage from "./pages/CategoryPage";
 import Footer from "./components/Footer/Footer";
 import PricesPage from "./pages/PricesPage";
+import CallNow from "./components/Navigation/callNow";
 // import ProductsPage from "./pages/ProductsPage";
 // import Footer from "./components/Footer/Footer";
 // import GalleryPage from "./pages/GalleryPage";

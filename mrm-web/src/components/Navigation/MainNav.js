@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./MainNav.css";
 import DropDown from "./DropDown/DropDown";
+import CallNow from "./callNow";
 
 class MainNavigation extends Component {
   offcanvassHandler = () => {
@@ -58,6 +59,7 @@ class MainNavigation extends Component {
                 )
               )}
             </ul>
+            <CallNow />
           </div>
         </div>
       </nav>
