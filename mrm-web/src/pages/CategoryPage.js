@@ -3,7 +3,7 @@ import { Markup } from "interweave";
 import { Link } from "react-router-dom";
 import Spinner from "../components/Spinner/Spinner";
 
-class ServicePage extends Component {
+class CategoryPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,7 +66,7 @@ class ServicePage extends Component {
             </div>
             <div className="container my-5">
               <h2>{this.state.pageDetails.name}</h2>
-              <div className="">{this.state.pageDetails.describtion}</div>
+              <Markup content={this.state.pageDetails.describtion} />
             </div>
             <div className="container">
               <div className="card-group">
@@ -94,4 +94,4 @@ class ServicePage extends Component {
     );
   }
 }
-export default ServicePage;
+export default CategoryPage;
