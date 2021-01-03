@@ -668,9 +668,9 @@ let data = {
       left: {
         heading: "Customer satisfaction is our first priority",
         subHeading1:
-          "MRM is a top notch building support organization situated in Central London offering total upkeep arrangements and top notch repairs. Our experinced group of property maintenance experts focus on quality, client care and reliability.",
+          "MRM is a building support team situated in the Marylebone, Soho and Mayfair area of London.  We offer total upkeep and repairs. Our experienced group of property maintenance experts focus on quality, client care and reliability.",
         subHeading2:
-          "Having served private and business customers for years, we are accessible 24 hours per day 7 days per week to help with the entirety of your property upkeep needs, including fixing flood damage, painting, plumbing, moving or general carpentry we are glad to help.",
+          "Having served both businesses and private customers for years, we understand the importance of being available whenever you need us. We are on hand 24 hours a day, seven days a week to help with the entirety of your property upkeep needs, including fixing flood damage, painting, plumbing moving or general carpentry.",
         image: {
           src: "images/plumbing.png",
           alt: "",
@@ -678,22 +678,58 @@ let data = {
       },
       right: [
         {
-          heading: "plumbing services",
+          heading: "Handyman",
           text:
-            "Our exceptionally qualified plumbers have long stretches of experience working in both private and business properties and are available 24*7",
-          link: "/#servicePanel",
+            "Odd jobs around the house that need doing? Look no further then MRM! We can help with hanging, tiling or general flat pack assembly.",
+          link: "/services/handyman",
         },
         {
           heading: "Electrical Services",
           text:
             "Our electricians can discover issues in your electric frameworks and complete repairs, carry out new installationss, issue electrical certificates  or any other electrical jobs.",
-          link: "/#servicePanel",
+          link: "/services/electrics",
         },
         {
-          heading: "painting services",
+          heading: "Home Makeover",
           text:
-            "We have a group of painting and improving pros, who can help you with any of your inside or outside fixes or activities. It iss a complete inside redesign, or fixing and painting a recolored roof, our pros will complete the activity to a high standard.",
-          link: "/#servicePanel",
+            "Looking to transform your home? Take a look at how we can help you with a revamp.",
+          link: "/services/home-makeover",
+        },
+        {
+          heading: "Carpentry Services",
+          text:
+            "If your office or home needs any carpentry work, MRM can help. From big jobs like replacing flooring to putting up shelves, we can help transform your home or business.",
+          link: "/services/carpentry",
+        },
+        {
+          heading: "Plumbing Services",
+          text:
+            "Our exceptionally qualified plumbers have lots of experience working in both private and business properties and are available 24/7.",
+          link: "/services/plumbing",
+        },
+        {
+          heading: "Moving Services",
+          text:
+            "Need reliable movers? We can help packing and transporting goods for your home or business.",
+          link: "/services/moving-services",
+        },
+        {
+          heading: "Painting and Decorating",
+          text:
+            "Our trained team can help you with any of your inside or outside repair jobs. Whether it’s a complete inside redesign or an outdoor job that requires fixing and painting, our pros will complete the job to a high standard. ",
+          link: "/services/decorating",
+        },
+        {
+          heading: "Cleaning Services",
+          text:
+            "Make your garden or outdoor area look brand new with our Jet Washing services.",
+          link: "/services/cleaning",
+        },
+        {
+          heading: "Locksmith",
+          text:
+            "Locked out? MRM is available as an emergency locksmith, or we can help with burglary repairs or fitting new locks.",
+          link: "/services/locksmith",
         },
       ],
     },
