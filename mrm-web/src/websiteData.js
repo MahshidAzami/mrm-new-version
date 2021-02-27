@@ -61,9 +61,9 @@ let data = {
     ],
     hero: {
       heroLarge:
-        "<p>Here at MRM, we aim to bring you an outstanding service at the best possible price! MRM is a dedicated team of home repair and property maintenance experts. Use us as a one stop shop for any repair job big or small.</p><p>We pride ourselves on being affordable, high quality and available at all hours of the day, ensuring you peace of mind when you call us. We are available for both business and residential properties in the Mayfair, Soho and Marylebone area of London.</p><p>We are available for refurbishment and emergency jobs including plumbing, electrics and carpentry, as well as general handyman repairs.</p><p>At MRM our workforce is committed to ensuring you get work of incredible quality at the best price.</p>",
+        "<p>Here at MRM, we aim to bring you an outstanding service, at the best possible price, whilst delivering above and beyond results.</p><p>MRM are a hardworking, trustworthy and dedicated team of both Home and Commercial property maintenance experts. Use us as a one stop shop for any repair job, whether big or small.</p><p>We pride ourselves on being affordable and available at all hours of the day - 24/7, ensuring you peace of mind when you call us. We are available for both commercial and residential properties in predominantly Mayfair, Soho, Marylebone and the West End of London.</p><p>We are available for refurbishment and emergency jobs, including; plumbing, electrics, carpentry, as well as general handyman repairs.</p><p>At MRM our workforce is committed to ensuring you get work of outstanding quality at the best price.</p><p>Having many years experience dealing with landlords and owners in both, residential and commercial, from large refurbishments to small leaks, we are confident in what we do and understand what it means to help every step of the way and to deliver.</p>",
       heroMobile:
-        "<p>Here at MRM, we aim to bring you an outstanding service at the best possible price! MRM is a dedicated team of home repair and property maintenance experts. Use us as a one stop shop for any repair job big or small.</p><p>We pride ourselves on being affordable, high quality and available at all hours of the day, ensuring you peace of mind when you call us. We are available for both business and residential properties in the Mayfair, Soho and Marylebone area of London.</p><p>We are available for refurbishment and emergency jobs including plumbing, electrics and carpentry, as well as general handyman repairs.</p><p>At MRM our workforce is committed to ensuring you get work of incredible quality at the best price.</p>",
+        "<p>Here at MRM, we aim to bring you an outstanding service, at the best possible price, whilst delivering above and beyond results.</p><p>MRM are a hardworking, trustworthy and dedicated team of both Home and Commercial property maintenance experts. Use us as a one stop shop for any repair job, whether big or small.</p><p>We pride ourselves on being affordable and available at all hours of the day - 24/7, ensuring you peace of mind when you call us. We are available for both commercial and residential properties in predominantly Mayfair, Soho, Marylebone and the West End of London.</p><p>We are available for refurbishment and emergency jobs, including; plumbing, electrics, carpentry, as well as general handyman repairs.</p><p>At MRM our workforce is committed to ensuring you get work of outstanding quality at the best price.</p><p>Having many years experience dealing with landlords and owners in both, residential and commercial, from large refurbishments to small leaks, we are confident in what we do and understand what it means to help every step of the way and to deliver.</p>",
     },
     bannerForm: {
       heading: "Looking for a Handyman?",
@@ -127,16 +127,18 @@ let data = {
     info: {
       heading: "Why Choose Us",
       info: {
-        subHeading: "One Stop Solution for your Complete Home Maintenance",
+        subHeading:
+          "One Stop Solution For Your Complete Home or Commercial Maintenance",
         list: [
           {
             heading: "Affordable",
-            text: "Trusted team  with affordable prices",
+            text: "Trusted team with affordable prices ",
             icon: "fas fa-money-bill-alt",
           },
           {
-            heading: "High Quality",
-            text: "Providing highest quality services",
+            heading: "Service",
+            text:
+              "All experts within the team are respectable, polite and highly experienced",
             icon: "fas fa-tasks",
           },
           {
@@ -146,7 +148,7 @@ let data = {
           },
           {
             heading: "24*7 Support",
-            text: "Available 365 days of year 24*7",
+            text: "Available 365 days of the year - 24/7",
             icon: "fa fa-life-ring",
           },
         ],
@@ -157,8 +159,8 @@ let data = {
       },
     },
     about: {
-      heading: "service you can trust",
-      subHeading: "protect all your home appliances & systems.",
+      heading: "Service You Can Trust",
+      subHeading: "Protect all your home appliances & systems",
       link: "/services",
       image: {
         src: "/images/bg1.jpg",
@@ -230,7 +232,7 @@ let data = {
         link: "handyman",
         banner: "",
         describtion:
-          "<p>Looking for a handyman in Soho, Marylebone or Mayfair? We have a whole team of experienced handymen ready to give assistance to anyone who requires it. Our handymen can baby proof homes, assemble flat pack furniture, wall mount TV units, hang shelves, tiling, install shower screens and tidy cables amongst many other services. Our expert team are available to make life much easier, ensuring high quality work no matter how big or small.</p><p>We understand home repairs can be very disruptive, so we aim to get our work done quickly and efficiently. With MRM you can be assured that any work space will be left clean and tidy afterwards, and we are available for evening work to ensure you minimal disruption.</p>",
+          "<p>Looking for a handyman in Soho, Marylebone, Mayfair or anywhere in the West End of London? We have a whole team of experienced handymen ready to give assistance to anyone who requires it. Our handymen can baby proof homes, assemble flat pack furniture, wall mount TV units, hang shelves, tiling, install shower screens and tidy cables amongst many other services. We are here to make your life easier, ensuring only the best, work no matter how big or small.</p><p>We understand home repairs can be very disruptive, so we aim to get our work done quickly and efficiently. With MRM you can be assured that any work space will be left clean and tidy afterwards, and we are available for evening work to ensure you minimal disruption.</p>",
         image: {
           src: "images/t8.png",
           alt: "",
@@ -340,7 +342,7 @@ let data = {
         link: "home-makeover",
         banner: "",
         describtion:
-          "<p>Are you hoping to put your property on the market? Do you want your home to attract potential buyers? Have you recently moved into a property and think it could do with an update? A home makeover no longer needs to use up all your resources. Our professional team will ensure your property looks appealing to potential buyers without breaking the bank. Our services include decorating, fixing broken tiles, ensuring all electrics are working correctly and jet washing a dirty patio or steps. Our dedicated team will make your home look brand new.</p><p>At MRM we understand how important it is for your home to be ready quickly. Our trained team can install new lighting, change windows and doors, install fixtures, and decorate and room. We pride ourselves on getting your home to look its best.</p>",
+          "<p>Are you hoping to put your property on the market? Do you want your home to attract potential buyers? Have you recently moved into a property and think it could do with an update? A home makeover no longer needs to use up all your resources. Our professional team will ensure your property looks appealing to potential buyers without breaking the bank. Our services include decorating, fixing broken tiles, ensuring all electrics are working correctly and jet washing a dirty patio or step - anything. Our dedicated team will make your home look brand new.</p><p>At MRM we understand how important it is for your home to be ready quickly. Our trained team can install new lighting, change windows and doors, install fixtures, and decorate and room. We pride ourselves on getting your home to look its best.</p>",
         image: {
           src: "images/t3.jpg",
           alt: "",
@@ -428,7 +430,7 @@ let data = {
         link: "plumbing",
         banner: "",
         describtion:
-          "<p>Plumbing emergency? No worries! Our reliable plumbers are available 24/7 for emergency call outs, and non-emergency jobs. Our services include replacements, unblocking, fixing flood damage, installations and repairs. At MRM we understand how stressful an emergency plumbing situation can be, and we guarantee a fast response to ensure a quick resolution. Our trained plumbers are on hand day or night for any unexpected situations, providing you peace of mind.</p><p>If you’re looking to transform your bathroom or kitchen, look no further then MRM! New fixtures in both rooms can make any space look brand new, and our trained team is on hand to advise you how your house can be remodelled. </p>",
+          "<p>Plumbing emergency? No worries! Our reliable plumbers are available 24/7 for emergency call outs, and non-emergency jobs. Our services include replacements, unblocking, fixing flood damage, installations and repairs. At MRM we understand how stressful an emergency plumbing situation can be, and we guarantee a fast response to ensure a quick resolution. Our trained plumbers are on hand day or night for any unexpected situations, providing you peace of mind.</p><p>If you’re looking to transform your bathroom or kitchen, then allow us to help! New fixtures in both rooms can make any space look brand new and our trained team is on hand to advise you how your house can be remodelled.</p>",
         image: {
           src: "images/t7.png",
           alt: "",
@@ -511,7 +513,7 @@ let data = {
         link: "decorating",
         banner: "",
         describtion:
-          "<p>Our professional painters and decorators at MRM are here to make your home look as good as new! We provide repairs, such as filing cracks in walls, patch repair, fixing ceiling cracks and repairing holes in walls, as well as providing painting and wall paper hanging. We are also available for outdoor jobs such as house painting and fixing and painting a recoloured roof. Our experienced decorators are dedicated to making your home or office look as fantastic as possible.</p><p>MRM are on hand to help, and we know how eager you are for your house to be finished on time and to the finest standard. Our trained team will ensure any work gets done as quickly as possible, and will get your home looking brand new!</p>",
+          "<p>Our professional painters and decorators at MRM are here to make your home look as good as new! We provide repairs, such as filling cracks in walls, patch repair, fixing ceiling cracks and repairing holes in walls, as well as providing painting and wallpaper hanging. We are also available for outdoor jobs such as house painting, roofing and anything else required. Our experienced decorators are dedicated to making your home or office look how you vision it.</p><p>MRM are on hand to help, and we know how eager you are for your house to be finished on time and to the finest standard. Our trained team will ensure any work gets done as quickly as possible, whilst delivering only the best standards.</p>",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -578,7 +580,7 @@ let data = {
         link: "cleaning",
         banner: "",
         describtion:
-          "<p>When looking to sell or rent, or even to brighten up your house, people often overlook the transformation jet washing can achieve. At MRM, our experienced jet washing team are the best at making your garden look brand new. We provide jet washing for paving stones, garden furniture and stone steps. Give your garden a lease of life with us today.</p>",
+          "<p>Whether you are looking to sell or rent your home, office or commercial building, or even looking for ongoing cleaning services - we are here to help.</p><p>We have experienced and exceptional cleaners who pride themselves not leaving until the job is done. </p><p>With years of experience looking after commercial office buildings, we know how to clean spaces, whether big or small.</p>",
         image: {
           src: "images/t2.jpg",
           alt: "",
@@ -714,7 +716,7 @@ let data = {
           link: "/services/moving-services",
         },
         {
-          heading: "Painting and Decorating",
+          heading: "Painting and Decorating ",
           text:
             "Our trained team can help you with any of your inside or outside repair jobs. Whether it’s a complete inside redesign or an outdoor job that requires fixing and painting, our pros will complete the job to a high standard. ",
           link: "/services/decorating",
