@@ -53,11 +53,12 @@ class App extends Component {
                 <CategoryPage {...props} data={servicesSection} />
               )}
             />
-            <Route
+            {/* <Route
               path="/prices"
               render={() => <PricesPage data={prices} />}
               exact
-            />
+            /> */}
+            <Route path="*" render={() => <LandingPage data={landingPage} />} />
           </Switch>
 
           <Footer footer={footer} />

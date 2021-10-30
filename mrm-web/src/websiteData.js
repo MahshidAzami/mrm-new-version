@@ -23,10 +23,10 @@ let data = {
         { name: "Locksmith", link: "/locksmith" },
       ],
     },
-    {
-      name: "Prices",
-      link: "/prices",
-    },
+    // {
+    //   name: "Prices",
+    //   link: "/prices",
+    // },
     {
       name: "About Us",
       link: "/aboutUs",
@@ -736,82 +736,82 @@ let data = {
       ],
     },
   },
-  prices: {
-    title: "Our Rates",
-    subHeader: "We like to be 100% transparent with our rates.",
-    banner: "/images/handshake.png",
-    text:
-      "You can see what we charge for handyman & specialist services below. We also provide free quotes for larger jobs. In order to give you flexibility and value for money, our minimum handyman booking is just 1/2 hour and we charge by the 1/2 hour after that.",
-    tableStandard: {
-      name: "Standard Rate",
-      subHeader: "(8am-6pm weekdays)",
-      rates: [
-        {
-          time: "1st half hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "1st hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Each further half hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Half day (up to 4 hours)",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Full day (up to 8 hours)",
-          handyMan: 40,
-          others: 50,
-        },
-      ],
-    },
-    tableOutOfHours: {
-      name: "Out Of Hours rate",
-      subHeader: "(7-8am, 6-8pm weekdays, all day Saturdays)",
-      rates: [
-        {
-          time: "1st half hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "1st hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Each further half hour",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Half day (up to 4 hours)",
-          handyMan: 40,
-          others: 50,
-        },
-        {
-          time: "Full day (up to 8 hours)",
-          handyMan: 40,
-          others: 50,
-        },
-      ],
-    },
-  },
+  // prices: {
+  //   title: "Our Rates",
+  //   subHeader: "We like to be 100% transparent with our rates.",
+  //   banner: "/images/handshake.png",
+  //   text:
+  //     "You can see what we charge for handyman & specialist services below. We also provide free quotes for larger jobs. In order to give you flexibility and value for money, our minimum handyman booking is just 1/2 hour and we charge by the 1/2 hour after that.",
+  //   tableStandard: {
+  //     name: "Standard Rate",
+  //     subHeader: "(8am-6pm weekdays)",
+  //     rates: [
+  //       {
+  //         time: "1st half hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "1st hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Each further half hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Half day (up to 4 hours)",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Full day (up to 8 hours)",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //     ],
+  //   },
+  //   tableOutOfHours: {
+  //     name: "Out Of Hours rate",
+  //     subHeader: "(7-8am, 6-8pm weekdays, all day Saturdays)",
+  //     rates: [
+  //       {
+  //         time: "1st half hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "1st hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Each further half hour",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Half day (up to 4 hours)",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //       {
+  //         time: "Full day (up to 8 hours)",
+  //         handyMan: 40,
+  //         others: 50,
+  //       },
+  //     ],
+  //   },
+  // },
   footer: {
     col1: {
       name: "Menu",
       items: [
         { name: "Home", link: "/" },
         { name: "Services", link: "/services" },
-        { name: "Prices", link: "/prices" },
+        // { name: "Prices", link: "/prices" },
         { name: "About Us", link: "/aboutUs" },
       ],
     },
