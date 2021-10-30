@@ -14,7 +14,7 @@ const SocialMedia = ({ data }) => {
         <nav className="navbar navbar-light col-lg-3">
           <ul className="navbar-nav margin-0-auto flex-row ">
             <li className="nav-item mx-3">
-              <a href={youtube}>
+              <a href={youtube} target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/youtube.png"
                   alt="social media"
@@ -23,7 +23,7 @@ const SocialMedia = ({ data }) => {
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a href={instagram}>
+              <a href={instagram} target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/insta.png"
                   alt="social media"
@@ -32,7 +32,7 @@ const SocialMedia = ({ data }) => {
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a href={google}>
+              <a href={google} target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/google.png"
                   alt="social media"

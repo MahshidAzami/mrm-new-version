@@ -838,15 +838,14 @@ let data = {
       name: "Contact Info",
       items: [
         { name: "1234k Avenue,block-4,New York City", link: "/" },
-        { name: "+1234 567 892", link: "/" },
-        { name: "+1234 567 892", link: "/" },
-        { name: "info@example.com", link: "mailto:info@example.com" },
+        { name: "07766314200", link: "tel:+447766314200" },
+        { name: "mehrdad@mrmteam.co.uk", link: "mailto:mehrdad@mrmteam.co.uk" },
       ],
     },
     socialMedia: {
       comapnyName: "MRM",
       youtube: "https://www.youtube.com/",
-      instagram: "https://www.youtube.com/",
+      instagram: "https://www.instagram.com/mrm.london/",
       google: "https://www.youtube.com/",
     },
   },
