@@ -27,10 +27,10 @@ let data = {
     //   name: "Prices",
     //   link: "/prices",
     // },
-    {
-      name: "About Us",
-      link: "/aboutUs",
-    },
+    // {
+    //   name: "About Us",
+    //   link: "/aboutUs",
+    // },
   ],
   landingPage: {
     banner: [
@@ -94,15 +94,13 @@ let data = {
       firstCol: [
         {
           heading: "maintenance",
-          text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-cog",
           link: "/about",
         },
         {
           heading: "cleaning",
-          text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-check-square-o",
           link: "/about",
         },
@@ -110,15 +108,13 @@ let data = {
       secondCol: [
         {
           heading: "repair",
-          text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-yelp",
           link: "/about",
         },
         {
           heading: "improvement",
-          text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
           icon: "fa fa-gg",
           link: "/about",
         },
@@ -137,8 +133,7 @@ let data = {
           },
           {
             heading: "Service",
-            text:
-              "All experts within the team are respectable, polite and highly experienced",
+            text: "All experts within the team are respectable, polite and highly experienced",
             icon: "fas fa-tasks",
           },
           {
@@ -269,8 +264,7 @@ let data = {
                 name: "subservice1",
                 text: "text for subservice1",
                 image: {
-                  src:
-                    "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+                  src: "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
                   alt: "",
                 },
                 link: "",
@@ -681,56 +675,47 @@ let data = {
       right: [
         {
           heading: "Handyman",
-          text:
-            "Odd jobs around the house that need doing? Look no further then MRM! We can help with hanging, tiling or general flat pack assembly.",
+          text: "Odd jobs around the house that need doing? Look no further then MRM! We can help with hanging, tiling or general flat pack assembly.",
           link: "/services/handyman",
         },
         {
           heading: "Electrical Services",
-          text:
-            "Our electricians can discover issues in your electric frameworks and complete repairs, carry out new installationss, issue electrical certificates  or any other electrical jobs.",
+          text: "Our electricians can discover issues in your electric frameworks and complete repairs, carry out new installationss, issue electrical certificates  or any other electrical jobs.",
           link: "/services/electrics",
         },
         {
           heading: "Home Makeover",
-          text:
-            "Looking to transform your home? Take a look at how we can help you with a revamp.",
+          text: "Looking to transform your home? Take a look at how we can help you with a revamp.",
           link: "/services/home-makeover",
         },
         {
           heading: "Carpentry Services",
-          text:
-            "If your office or home needs any carpentry work, MRM can help. From big jobs like replacing flooring to putting up shelves, we can help transform your home or business.",
+          text: "If your office or home needs any carpentry work, MRM can help. From big jobs like replacing flooring to putting up shelves, we can help transform your home or business.",
           link: "/services/carpentry",
         },
         {
           heading: "Plumbing Services",
-          text:
-            "Our exceptionally qualified plumbers have lots of experience working in both private and business properties and are available 24/7.",
+          text: "Our exceptionally qualified plumbers have lots of experience working in both private and business properties and are available 24/7.",
           link: "/services/plumbing",
         },
         {
           heading: "Moving Services",
-          text:
-            "Need reliable movers? We can help packing and transporting goods for your home or business.",
+          text: "Need reliable movers? We can help packing and transporting goods for your home or business.",
           link: "/services/moving-services",
         },
         {
           heading: "Painting and Decorating ",
-          text:
-            "Our trained team can help you with any of your inside or outside repair jobs. Whether it’s a complete inside redesign or an outdoor job that requires fixing and painting, our pros will complete the job to a high standard. ",
+          text: "Our trained team can help you with any of your inside or outside repair jobs. Whether it’s a complete inside redesign or an outdoor job that requires fixing and painting, our pros will complete the job to a high standard. ",
           link: "/services/decorating",
         },
         {
           heading: "Cleaning Services",
-          text:
-            "Make your garden or outdoor area look brand new with our Jet Washing services.",
+          text: "Make your garden or outdoor area look brand new with our Jet Washing services.",
           link: "/services/cleaning",
         },
         {
           heading: "Locksmith",
-          text:
-            "Locked out? MRM is available as an emergency locksmith, or we can help with burglary repairs or fitting new locks.",
+          text: "Locked out? MRM is available as an emergency locksmith, or we can help with burglary repairs or fitting new locks.",
           link: "/services/locksmith",
         },
       ],
@@ -837,16 +822,19 @@ let data = {
     colContact: {
       name: "Contact Info",
       items: [
-        { name: "1234k Avenue,block-4,New York City", link: "/" },
+        {
+          name: "42 Manchester Street, Marylebone, London W1U7LW",
+          link: "/",
+        },
         { name: "07766314200", link: "tel:+447766314200" },
         { name: "mehrdad@mrmteam.co.uk", link: "mailto:mehrdad@mrmteam.co.uk" },
       ],
     },
     socialMedia: {
-      comapnyName: "MRM",
-      youtube: "https://www.youtube.com/",
+      companyName: "Marylebone Reactive Maintenance",
+      // youtube: "https://www.youtube.com/results?search_query=mrm+london",
       instagram: "https://www.instagram.com/mrm.london/",
-      google: "https://www.youtube.com/",
+      // google: "https://www.youtube.com/",
     },
   },
 };

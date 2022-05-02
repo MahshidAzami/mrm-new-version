@@ -13,7 +13,7 @@ const SocialMedia = ({ data }) => {
       <div className="container d-lg-flex justify-content-end">
         <nav className="navbar navbar-light col-lg-3">
           <ul className="navbar-nav margin-0-auto flex-row ">
-            <li className="nav-item mx-3">
+            {/* <li className="nav-item mx-3">
               <a href={youtube} target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/youtube.png"
@@ -21,7 +21,7 @@ const SocialMedia = ({ data }) => {
                   className="social-icon"
                 />
               </a>
-            </li>
+            </li> */}
             <li className="nav-item mx-3">
               <a href={instagram} target="_blank" rel="noopener noreferrer">
                 <img
@@ -31,7 +31,7 @@ const SocialMedia = ({ data }) => {
                 />
               </a>
             </li>
-            <li className="nav-item mx-3">
+            {/* <li className="nav-item mx-3">
               <a href={google} target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/google.png"
@@ -39,7 +39,7 @@ const SocialMedia = ({ data }) => {
                   className="social-icon"
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
